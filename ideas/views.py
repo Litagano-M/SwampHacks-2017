@@ -25,7 +25,7 @@ def submit_idea(request):
 
     idea.save()
 
-    return HttpResponse(idea.category)
+    return HttpResponse()
 
 @require_POST
 def vote_idea(request):
@@ -38,4 +38,4 @@ def vote_idea(request):
 
     idea.save()
 
-    return HttpResponse(idea.likes)
+    return HttpResponse()
