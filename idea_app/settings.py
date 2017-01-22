@@ -25,7 +25,9 @@ SECRET_KEY = '-$#v7b5b@z(=-*dr$!2kr0ys7eh%c#7zx^-1ndju#7nujg001n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'obscure-lowlands-65041.herokuapp.com',
+]
 
 
 # Application definition
